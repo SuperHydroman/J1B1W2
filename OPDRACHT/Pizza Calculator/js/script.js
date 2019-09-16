@@ -28,12 +28,12 @@ writeLine("<div>Prijs per stuk: " + "&euro;" + smPizzaPrice + "</div>");
 writeLine("<div>Totaal prijs: " + "&euro;" + (smPizzaTotalPrice).toFixed(2) + "</div>");
 writeLine("<br>");
 
-writeLine("<div>Aantal medium pizza's: " + smallAmount + "</div>");
+writeLine("<div>Aantal medium pizza's: " + mediumAmount + "</div>");
 writeLine("<div>Prijs per stuk: " + "&euro;" + mePizzaPrice + "</div>");
 writeLine("<div>Totaal prijs: " + "&euro;" + (mePizzaTotalPrice).toFixed(2) + "</div>");
 writeLine("<br>");
 
-writeLine("<div>Aantal large pizza's: " + smallAmount + "</div>");
+writeLine("<div>Aantal large pizza's: " + largeAmount + "</div>");
 writeLine("<div>Prijs per stuk: " + "&euro;" + laPizzaPrice + "</div>");
 writeLine("<div>Totaal prijs: " + "&euro;" + (laPizzaTotalPrice).toFixed(2) + "</div>");
 writeLine("<br>");
